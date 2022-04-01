@@ -69,9 +69,10 @@ const SignupForm = props => {
       <div className={styles.inputContainer}>
         <label htmlFor="email" className={styles.label}>Email</label>
         <input
-          type="text"
+          type="email"
           autoComplete="off"
           id="email"
+          pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
           value={email}
           name="email"
           onChange={handleChange}
