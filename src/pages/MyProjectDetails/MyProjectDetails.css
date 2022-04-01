@@ -82,3 +82,8 @@ td {
 .repo-link-in-current-project{
   color: #561296
 }
+
+.cxbComp {
+  height: 30px;
+  width: 40px;
+}
