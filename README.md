@@ -30,7 +30,6 @@ The app intends to create motivation/encouragement, help complete more projects,
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/-mongoose-red)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -38,6 +37,7 @@ The app intends to create motivation/encouragement, help complete more projects,
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Mongoose](https://img.shields.io/badge/-mongoose-red)
  
 ### How to Use the App
 To use this app, you have to create an account and link up your GitHub account. From there, you create a new project from a linked GitHub repository, and add project deadlines and goals/milestones to the project. The app shows you the current status of your project with a progress bar that dynamically updates with your milestone completion so you can see how far you are. Beyond your own projects tracking functionality, the app  allows you to post in a social feed to share your progress with others and leave comments to encourage each other. You are also able to view other people’s projects. 
