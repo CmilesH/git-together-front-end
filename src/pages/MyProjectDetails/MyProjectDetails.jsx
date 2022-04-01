@@ -51,7 +51,7 @@ const MyProjectDetails = (user) => {
   }
 
   const owner = user.user.profile === project.owner
-
+  console.log(gitLink)
   return ( 
     <>
       <h1>{project.name}</h1>
@@ -59,10 +59,9 @@ const MyProjectDetails = (user) => {
       <div className="project-details-container" id="current-project-status">
         <h3>Current Project Status</h3>
         <h5>Repostory: 
-          <Link className="repo-link-in-current-project"
-          to={gitLink}>
+          <a href={gitLink} target="_blank">
           {project.repo}
-          </Link>
+          </a>
           </h5>
         <h5>Projected Completion Date: {new Date(project.completionDate).toLocaleDateString()}</h5>
         <span id="progress-bar-aligner">
@@ -95,6 +94,7 @@ const MyProjectDetails = (user) => {
                   <td className='align-center'>
                     <input 
                     type="checkbox" 
+                    className="cxbComp"
                     onClick={() => handleUpdateComplete(goal._id, project._id)}
                     defaultChecked={goal.complete}
                     >

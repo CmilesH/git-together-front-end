@@ -14,3 +14,8 @@
   display: flex;
   align-self: center;
 }
+
+.checkbox {
+  width: 100px;
+  height: 38px;
+}

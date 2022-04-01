@@ -24,7 +24,7 @@ const AddGoal = (props) => {
   const handleSubmit = evt => {
     evt.preventDefault()
     props.handleAddGoal(formData)
-    setFormData({goal: ''})
+    setFormData({goal: '', date: '', complete: false})
   }
 
   return ( 
@@ -57,6 +57,7 @@ const AddGoal = (props) => {
               name="date"
               value={formData.date}
               onChange={handleChange}
+              required
             />
           </div>
           <div className="form-group mb-4">
@@ -64,6 +65,7 @@ const AddGoal = (props) => {
               Completed?
             </label>
             <input 
+              className="checkbox"
               type="checkbox"
               id="complete-input"
               name="complete"
