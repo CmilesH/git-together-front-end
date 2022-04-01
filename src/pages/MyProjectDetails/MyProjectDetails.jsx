@@ -17,7 +17,6 @@ const MyProjectDetails = (user) => {
   const [gitLink, setLink] = useState([])
   const [profile, setProfile] = useState([])
   
-  
   useEffect(() => {
     getDetails(location.state.project.owner)
     .then(profile => setProfile(profile))
@@ -55,14 +54,14 @@ const MyProjectDetails = (user) => {
   return ( 
     <>
       <h1>{project.name}</h1>
-      <img className='project-details-image' src={project.image}></img>
+      <img className='project-details-image' src={project.image} alt="Your Project!"></img>
       <div className="project-details-container" id="current-project-status">
         <h3>Current Project Status</h3>
-        <h5>Repostory: 
-          <a href={gitLink} target="_blank">
-          {project.repo}
+        <h5>Repository: 
+          <a id="your-project-repo" href={gitLink} target="_blank" rel="noreferrer">
+            {project.repo}
           </a>
-          </h5>
+        </h5>
         <h5>Projected Completion Date: {new Date(project.completionDate).toLocaleDateString()}</h5>
         <span id="progress-bar-aligner">
           <ProgressBar animated now={progress} />
