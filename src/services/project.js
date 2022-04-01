@@ -1,5 +1,4 @@
 import { Octokit } from "@octokit/core"
-import AddProject from "../pages/AddProject/AddProject"
 import * as tokenService from './tokenService'
 
 const octokit = new Octokit()
@@ -15,9 +14,6 @@ async function getRepos(gitUser) {
   
   const response = await octokit.request('GET /users/{username}/repos', {
     username: gitUser,
-    headers: {
-      'Authorization' : "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"
-  }
   })
 
   const repoData = []
