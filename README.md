@@ -5,7 +5,7 @@ A fullstack MERN application (MongoDB, Express.js, React, Node.js) with CRUD cap
  
 ### Team: The Snake Pit
 All of us worked on various React components and functionality/feature building for the project, as well has together on many feature challenges.
-+ [Brandon](https://github.com/byamane/) @byamane - Scrum Master, Database/ERD Manager
++ [Brandon](https://github.com/byamane/) @byamane - Scrum Master, Designer, Database/ERD Manager
 + [Catt](https://github.com/catt-tung/) @catt-tung - Documenter, Designer, Wireframer
 + [Chris](https://github.com/CmilesH/) @CmilesH - GitHub Manager, API Manager
  
