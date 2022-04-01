@@ -57,12 +57,7 @@ h3 {
 }
 
 td, th {
-  /* border: 1px solid rgb(190,190,190); */
   padding: 8px 15px;  
-}
-
-th {
-  /* background-color: rgb(235,235,235); */
 }
 
 td {
@@ -76,14 +71,24 @@ td {
 }
 
 .progress{
-  width: 50vh
+  width: 50vh;
 }
 
 .repo-link-in-current-project{
-  color: #561296
+  color: #561296;
 }
 
 .cxbComp {
   height: 30px;
   width: 40px;
+}
+
+#your-project-repo {
+  color: var(--purple);
+  font-weight: 600;
+}
+  
+#your-project-repo:hover {
+  color: var(--purple);
+  background-color: rgb(188, 188, 188);
 }
